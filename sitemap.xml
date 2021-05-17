@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://heyalbqrq.glitch.me/</loc>
+  <lastmod>2021-04-11T16:51:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://heyalbqrq.glitch.me/curriculo.html</loc>
+  <lastmod>2021-04-01T13:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heyalbqrq.glitch.me/publicacoes.html</loc>
+  <lastmod>2021-04-08T13:34:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heyalbqrq.glitch.me/blog.html</loc>
+  <lastmod>2021-04-10T21:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heyalbqrq.glitch.me/minhatattoo.html</loc>
+  <lastmod>2021-02-19T00:47:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heyalbqrq.glitch.me/secret.html</loc>
+  <lastmod>2021-01-23T00:02:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heyalbqrq.glitch.me/index.html</loc>
+  <lastmod>2021-04-11T16:51:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://heyalbqrq.glitch.me/blog/redescobrindo-mour-1.html</loc>
+  <lastmod>2021-04-05T16:40:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+robots.txt
+  http://www.google.com/ping?sitemap=https://heyalbqrq.glitch.me/sitemap.xml
+</urlset>
+

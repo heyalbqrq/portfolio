@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      detfq #6 - a ignorância e a pílula azul – de volta a caverna e a traição
+      de cypher em matrix.
+    </title>
+    <meta name="author" content="Wash Albuquerque" />
+    <meta
+      name="description"
+      content="esse é o espaço onde o wash compartilha tudo o que faz, textos, artes, codes e blá blá blá 👾"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
+    />
+
+    <!-- arquivos javascript -->
+    <script src="/lib/script.js" defer></script>
+
+    <!-- Folha de Estilos-->
+    <link
+      rel="stylesheet"
+      href="/lib/style-post.css"
+      type="text/css"
+      media="screen, projection"
+    />
+    <!-- Folha de Estilos Mobile -->
+    <link
+      rel="stylesheet"
+      href="/lib/mobile.css"
+      type="text/css"
+      media="screen, projection"
+    />
+
+    <!-- Ícone-->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/alien-monster_1f47e.png"
+    />
+    <link rel="icon" type="image/png" href="👾" />
+
+    <!-- Veja https://goo.gl/qRE0vM -->
+    <meta name="theme-color" content="#ffd51c" />
+
+    <!-- Homescreen Chrome on Android. -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="coisas que o wash faz... " />
+
+    <!-- Homescreen Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="coisas que o wash faz... "
+    />
+
+    <!-- Homescreen Icons -->
+    <link rel="apple-touch-icon" sizes="192x192" href="👾" />
+
+    <!-- Title Icon Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="👾" />
+    <meta name="msapplication-TileColor" content="#a58706" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-161708062-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-161708062-1");
+    </script>
+
+    <!-- SSL Protocol Config -->
+    <script>
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+  </head>
+
+  <!-- Hey u!
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░░░░░░░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░░░░░░░░
+░░░░░░░░▄▀░░░░░░░░░░░░▄░░░░░░░▀▄░░░░░░░
+░░░░░░░░█░░▄░░░░▄░░░░░░░░░░░░░░█░░░░░░░
+░░░░░░░░█░░░░░░░░░░░░▄█▄▄░░▄░░░█░▄▄▄░░░
+░▄▄▄▄▄░░█░░░░░░▀░░░░▀█░░▀▄░░░░░█▀▀░██░░
+░██▄▀██▄█░░░▄░░░░░░░██░░░░▀▀▀▀▀░░░░██░░
+░░▀██▄▀██░░░░░░░░▀░██▀░░░░░░░░░░░░░▀██░
+░░░░▀████░▀░░░░▄░░░██░░████▀▀▀███▀░░██░
+░░░░░░░▀█░░░░▄░░░░░██░░░░▄░░░▄░░▄░░░██░
+░░░░░░░▄█▄░░░░░░░░░░░▀▄░░▀▀▀▀▀▀▀▀░░▄▀░░
+░░░░░░█▀▀█████████▀▀▀▀████████████▀░░░░
+░░░░░░████▀░░███▀░░░░░░▀███░░▀██▀░░░░░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  -->
+
+  <!-- sidebar fixo -->
+  <body>
+    <div class="container">
+      <header class="sidebar">
+        <div class="sidebar-text">
+          <nav class="sections">
+            <ul>
+              <a href="/blog.html">← blog</a>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- sidebar fixo -->
+
+      <!-- data -->
+      <section class="content">
+        <byline>
+          Abril, 2021
+        </byline>
+        <!-- título -->
+        <h1>
+          deixa eu te falar que #6 💬 - a ignorância e a pílula azul 💊 – de
+          volta a caverna e a traição de cypher em matrix.
+        </h1>
+        <br />
+        <font size="2"> deixa eu te falar que | 23 min de leitura 📖</font>
+        <br /><br />
+
+        <!-- conteúdo -->
+
+        <p>
+          Este é um texto da newsletter/podcast “Deixa Eu Te Falar Que”,
+          <a href="https://www.getrevue.co/profile/heyalbqrq"
+            >clique aqui e se inscreva</a
+          >
+          para receber em primeira mão ❤ | Você também pode ouvir esse conteúdo
+          no
+          <a
+            href="https://open.spotify.com/show/5PQLwDaxW49A3alqAa4VAG?si=44EQ6Hy_Roipc7Dha5oEDg&amp;nd=1"
+            >Spotify</a
+          >, <a href="https://soundcloud.com/deixaeutefalarque">Soundcloud</a>,
+          <a
+            href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yYjBhNjFkYy9wb2RjYXN0L3Jzcw?sa=X&amp;ved=0CBUQ27cFahcKEwjwn6zqgO_uAhUAAAAAHQAAAAAQAQ"
+            >Google Podcast</a
+          >,
+          <a
+            href="https://podcasts.apple.com/br/podcast/deixa-eu-te-falar-que/id1546906152"
+            >Apple Podcast</a
+          >
+          e <a href="https://anchor.fm/deixaeutefalarque">outros</a>.
+        </p>
+
+        <p style="text-align: center;">
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1032622450&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+        </p>
+        <div
+          style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+        ></div>
+
+        <hr
+          class="wp-block-separator has-text-color has-background has-very-dark-gray-background-color has-very-dark-gray-color is-style-wide"
+        />
+
+        <p>
+          <strong>Deixa eu te falar que</strong> de muitas formas nos sentimos
+          ansiosos, deprimidos e depressivos quando nos recolhemos em nossos
+          pensamentos refletindo sobre o agora, o mundo, o que foi o ontem e
+          será o amanhã. Costumamos sempre nos pegar questionando “e se fosse
+          diferente”, “e se tivesse acontecido assim”, “e se eu estivesse em tal
+          lugar”, esse pensamento “e se”, já nos é familiar, pois falamos também
+          sobre ele em nosso
+          <a ref="http://heyalbqrq.glitch.me/blog/detfq3-tempo-ao-tempo.html"
+            >terceiro episódio (tempo ao tempo — a ansiedade ordinário de
+            benjamin button)</a
+          >. O ponto é, que nós mergulhamos em questões como essa pois temos o
+          conhecimento e entendimento das adversidades de escolhas pessoais,
+          coletivas, e de certo modo, históricas globais para saber que as
+          coisas são como são por uma cadeia infinita de eventos, que vem lá de
+          trás, quando o homo ainda não era sapien. O evidente entendimento da
+          realidade, muitas vezes é o que nos deprime, pois como humanos
+          pensantes e sentimentais que somos, sempre iremos questionar aspectos
+          da verdade por mais que estejam tão distantes da nossa realidade local
+          (vamos chamar assim as coisas que cada um conhece durante a vida), que
+          independente do que façamos, parece que, nada vai fazer diferença.
+        </p>
+        <img
+          src="https://miro.medium.com/max/500/1*TzhKV863UfWql8K1lutn4A.gif"
+        /><br />
+        <p>
+          Saindo da escala global, isso se aplica também a uma percepção do
+          quanto o conhecimento pode ser danoso. Espera! Não, não é uma desculpa
+          para largar a escola. Veja, há um clichê interessante que diz:
+          <i> “Eu era feliz e não sabia”</i>, mas será que eu era feliz porque
+          não sabia ou não sabia o por que era feliz? A filosofia nunca me
+          atraiu, mas é engraçado pensar que filosofamos o tempo todo, estou
+          filosofando agora, não como Nietzsche, mas estou…
+          <a
+            ref="https://medium.com/@darknihilism/a-cr%C3%ADtica-ao-conhecimento-na-obra-de-friedrich-nietzsche-1ac005569553"
+            >e por falar em Nietzsche</a
+          >, que tal observarmos isso sobre a causa e efeito, e reafirmarmos o
+          pensamento partindo do ponto de vista de Nietzsche. Eu era feliz
+          porque não sabia.
+        </p>
+        <p>
+          Nós somos felizes na ignorância, não por ser tolos
+          <i>(não gosto muito da palavra burro nesse contexto)</i>, nós somos
+          felizes na ignorância pois apenas o que está na nossa frente faz
+          sentido e importa, digo, literalmente na nossa frente. Imagine-se
+          acordando em uma casa de férias, tipo aquelas gringas de veraneio, de
+          cara pra um laguinho super cool com pedrinhas e aquelas árvores que
+          parecem aquele maldito chocolate de guarda-chuva feito com banha que
+          comíamos nos anos 90, e você acorda com o calor do sol matinal tocando
+          seu rosto e quando abre os olhos, flagra uma montanha nevada, você se
+          sente feliz… calma, vamos ser mais simples. Você acordou descansada e
+          com fome, mas sentindo cheiro de pão quentinho… massa! Nesse momento,
+          você é ignorante, mas não estou usando essa palavra no sentido
+          pejorativo, a ignorância é pelo fato de que nesse momento nada importa
+          além do que você está vivendo imediatamente, a sensação de descanso, a
+          ansiedade de comer um café da manhã irado, e toda a desgraça que está
+          rolando no mundo… bom, foda-se.
+        </p>
+
+        <img
+          src="https://miro.medium.com/max/268/1*s6t_SHmV2KGLk02Ssr7l_w.gif"
+        /><br />
+        <p>
+          O conhecimento é algo que nos deprime, pois temos consciência dos
+          males do mundo e o que nos fere realmente é ter consciência de que não
+          podemos fazer nada para impedir ou remediar, que está além do nosso
+          controle ou que aquilo já te feriu tanto que você não quer saber mais,
+          chega.
+        </p>
+        <p>Nietzsche coloca isso melhor em palavras:</p>
+        <blockquote>
+          Os homens fogem menos da mentira do que do prejuízo provocado por uma
+          mentira. Fundamentalmente, não detestam tanto as ilusões, mas as
+          consequências deploráveis e nefastas de certos tipos de ilusão. É
+          apenas nesse sentido restrito que o homem quer a verdade. Deseja os
+          resultados favoráveis da verdade, aqueles que conservam a vida; mas é
+          indiferente diante do conhecimento puro e sem consequência, e é mesmo
+          hostil para com as verdades que podem ser prejudiciais e destrutivas
+          (NIETZSCHE, 2007, p. 60). (Sobre a verdade e a mentira no sentido
+          extramoral. Tradução de Noéli Correia de Melo Sobrinho. São Paulo:
+          Editora Hedra, 2007.)
+        </blockquote>
+
+        <p>
+          Interessante né. Certo, queremos a mentira, desde que seja boa, mas
+          queremos a verdade, desde que seja boa também. A ignorância é uma
+          bênção? Bom, é uma perspectiva subjetiva e ao mesmo tempo que ergue
+          discussões constantes, pois o conhecimento é necessário para também
+          nos erguermos, contemplarmos o mundo e as pessoas e nós mesmo em
+          nossas qualidades, tal como a vida.
+        </p>
+
+        <p>
+          Isso parece papo de coaching, não é?
+          <i>“Nunca é tarde para começar(?)”</i>,
+          <i
+            >“(Mas)Você não pode perder essa oportunidade pois é a chance da sua
+            vida”</i
+          >
+          WHATAFUCK. Não quero te confundir, mas ao contrário do que pregam os
+          coachings, sim, o conhecimento naturalmente tem suas faces. Então, eu
+          era feliz e não sabia, é verdade, eu era feliz pois não sabia que
+          precisava pagar contas, pois não entendia os impostos, pois passava a
+          tarde desenhando, eu era feliz na minha Matrix.
+        </p>
+        <img
+          src="https://miro.medium.com/max/498/1*SsRMju2HQYjtSyur6-eJQg.gif"
+        /><br />
+
+        <p>
+          Cypher significa cifra e é também um intrigante, talvez mal
+          interpretado e subestimado, personagem de Matrix, das irmãs Wachowski.
+          Sua apresentação no filme ficou marcada pela forma como ele trai o
+          Escolhido, Neo, e toda a galera da Nabucodonosor.
+          <a
+            href="https://www.cinemablend.com/news/2495305/how-the-matrixs-joe-pantoliano-defends-cyphers-betrayal"
+            >Mas há muito mais por trás dessa traição do que um simples ato
+            egoísta</a
+          >. Em uma das cenas, temos Cypher jantando com o Agente Smith,
+          tentando fechar um acordo para entregar Morpheus e Neo, nessa mesma
+          cena, ele solta uma frase SUPER emblemática, ele diz:
+        </p>
+
+        <blockquote>
+          Olha, eu sei que esse filé não existe. Eu sei que o que ponho na minha
+          boca, Matrix diz ao meu cérebro que é suculento e delicioso. Depois de
+          nove anos, sabe o que eu percebo? A ignorância é uma bênção.
+        </blockquote>
+
+        <p>
+          Interessante, não é? Há um poeta chamado Thomas Gray e em uma de suas
+          obras ele toca justamente esse pensamento:
+        </p>
+        <blockquote>
+          And happiness too swiftly flies. Thought would destroy their paradise.
+          No more; where ignorance is bliss, ’Tis folly to be wise. — Thomas
+          Gray<br /><br />
+          E a felicidade voa muito rapidamente. O pensamento destruiria seu
+          paraíso. Não mais; onde a ignorância é uma bênção, é loucura ser
+          sábio. (Tradução livre)
+        </blockquote>
+
+        <p>
+          Ainda nessa cena, Cypher destaca um termo importante sobre o seu
+          acordo:
+        </p>
+        <blockquote>
+          Eu não quero me lembro de nada. Nada! Compreendeu?
+        </blockquote>
+
+        <img
+          src="https://miro.medium.com/max/640/1*XHdJhzpwprhjlkcKGPcbOQ.gif"
+        /><br />
+        <p>
+          Agora está claro, Cypher está escolhendo a ignorância. Indo contra
+          todas as ideias do novo mundo, ele está abrindo mão da sua liberdade,
+          realizando o seu último ato… de liberdade? Tomando uma escolha. A
+          partir desse momento, fica evidente que Cypher é o Judas, que tem,
+          desde o começo, guiado seus amigos e o Escolhido, para uma armadilha.
+          Para ele, a realidade é um trauma, enquanto a Matrix é uma resposta
+          sutil, um acalento, onde ele encontrará felicidade em prazeres
+          mundanos, na ilusão, mas faz diferença? Para ele não.
+        </p>
+        <p>
+          Platão, outro carinha que fritava demais, propôs uma ideia, mais ou
+          menos assim:
+          <i
+            >Imagine uma caverna com pessoas presas lá dentro. E elas sempre
+            estiveram lá, e a única coisa que elas reconhecem do mundo, são sons
+            aleatórios e figuras em forma de silhuetas contra uma parede,
+            criadas por causa de uma fogueira próxima. Okay, então, digamos que
+            eles vêem a sombra de uma árvore, eles vêem uma árvore, mas é apenas
+            a sua sombra. Porém, é a realidade deles, portanto, tomada como
+            verdade. Um belo dia, um deles consegue sair… seus olhos ardem, seu
+            corpo se contrai, a confusão é tanto física, quanto mental, uma vez
+            que o mundo externo, a realidade, será um choque do qual ele terá
+            que lentamente absorver, refletir e compreender nos limites do seu
+            raciocínio. É como a cena em que Neo é retirado do tanque pela
+            Nabucodonosor. Após encarar o mundo real, ele é jogado novamente
+            para uma simulação para receber uma explicação sobre o que é a
+            Matrix, e aí ele surta. Mas o ponto é, a pessoa saiu da caverna,
+            encarou a verdade, mas algo o fez voltar, e pior, ele contou para
+            todos o que havia do outro lado.</i
+          >
+        </p>
+        <p>
+          O que acontece quando as pessoas encaram algo que não faz sentido para
+          a sua realidade? Matam. Exterminam. Aniquilam. A realidade é dura e
+          cruel, enquanto a ignorância é confortável, amável, piedosa. Tipo o
+          lance da mentira.
+        </p>
+
+        <p>
+          Cypher quer voltar para a caverna, e para isso, ele está disposto a
+          entregar a vida de todos aqueles que são, praticamente, sua família. E
+          se, Cypher ou whatever, tivesse tomado a pílula azul? Lembram do que
+          Morpheus diz para Neo?
+        </p>
+
+        <blockquote>
+          Se tomar a pílula azul, fim da história, vai acordar na sua cama e
+          acreditar no que quiser. Se tomar a pílula vermelha, fica no País das
+          Maravilhas, e eu vou mostrar até onde vai a toca do coelho. Lembre-se,
+          eu estou oferecendo a verdade, nada mais.
+        </blockquote>
+
+        <p>
+          É verdade que ele oferece a verdade.
+          <a
+            href="https://www.youtube.com/watch?v=owVjbX-Z-Nc&ab_channel=MatrixExplained"
+            >Há um vídeo gringo muito bom que dialóga sobre isso</a
+          >, ele aborda a ideia do que aconteceria se Neo escolhesse as duas, e
+          tomasse as duas pílulas, e reforça pensarmos nas pílulas sob dois
+          pontos de vista, farmacêutico e tecnológico. Por exemplo, dois
+          remédios com funções inversas deveriam se anular, certo? Mas não se
+          anulam, pois cada um age de forma diferente no nosso organismo, e
+          apesar de não se anular, podem fazer um estrago. Do ponto de vista
+          tecnológico, provavelmente nada aconteceria, pois a pílula azul seria
+          como um firewall, que impediria a vermelha de hackear a conexão física
+          e digital das máquinas com o corpo de Neo. Voltando à pergunta
+          principal, podemos imaginar que a pílula azul seria escolher a
+          ignorância, e assim, Neo acordaria em casa e esqueceria tudo, certo?
+          Não, em nenhum momento é dito que ela vai apagar a mente de Neo sobre
+          o evento. Em um quadrinho do universo Matrix,
+          <i>A Life Less Empty</i> do autor <i>Ted McKeever</i>, vemos uma
+          personagem que escolhe a pílula azul. Ela discorre intensamente sobre
+          o seu remorso de se acovardar diante da possibilidade de descobrir a
+          realidade. A pílula azul, não vai te deixar em um mar de ilusões
+          perfeitas, mas sim destruir com o seu psicológico, afinal, somos
+          humanos e nossa maior falha e qualidade, é a curiosidade.
+        </p>
+        <img
+          src="https://miro.medium.com/max/564/1*tWht0WKOy4U6sEWfAyMfEw.jpeg"
+        /><br />
+        <p>
+          Cypher quer voltar para a caverna, mas talvez ele não seja como Judas.
+          Há diversos pontos que destacam a mágoa de Cypher com a realidade,
+          além de ter escolhido viver em um mundo destruído, sendo caçado e
+          subsistindo miseravelmente. Há uma cena em que ele conversa com
+          Trinity, deixando claro que ele tinha uma forte afeição por ela, que
+          aparentemente veio se transformando com o tempo, ou seja, é possível
+          que eles fossem mais próximos ou no mínimo não tão indiferentes no
+          passado. Mas se voltarmos um pouco mais, lá no começo, também tem um
+          trecho que não podemos deixar passar, trata-se de uma ligação, entre
+          Cypher e Trinity:
+        </p>
+        <blockquote>
+          — Você gosta dele, não é? Gosta de observá-lo. (Cypher) <br>— Não seja
+          ridículo (Trinity). <br>— Ele vai morrer, você entende isso? (Cypher)
+        </blockquote>
+        <p>
+          Apenas como nota, na versão original, Cypher finaliza dizendo:
+          <i
+            >“Nós vamos matá-lo, você entende isso? Ele irá apenas morrer como
+            os outros.”</i
+          >
+        </p>
+        <p>
+          O que isso nos diz? As fraquezas, os traumas de Cypher. O choque do
+          mundo em pedaços, a rejeição de Trinity, e talvez o ponto
+          determinante, a devoção de Morpheus. Em Matrix, Morpheus soa como
+          alguém em busca de um herói, uma missão nobre e em prol da humanidade,
+          mas em outra perspectiva, e possivelmente para Cypher, Morpheus era um
+          fanático religioso que não se importava com as consequências de suas
+          ações, pois ele acreditava estar agindo em pela profecia; que por
+          acaso, também possivelmente, foi escrita por uma das inteligências
+          artificiais, parte da Matrix. Ele não está todo errado. Na
+          Nabucodonosor, todos acreditam no que Morpheus acredita, todos dão
+          suas vidas por essa crença, e Cypher não vê da mesma forma, ele é
+          desiludido, crítico e não se encaixa mais na família. Isso tudo é bem
+          familiar com N cenários que conhecemos, reais e ficcionais, não é?
+          <br /><br />Um trecho foi retirado do filme, mas é possível
+          encontrá-lo no roteiro original.
+        </p>
+
+        <blockquote>
+          Cypher:Eu vou te contar um segredinho aqui. Agora, não diga que eu te
+          contei, mas você não é a primeira vez que Morfeu pensa ter encontrado
+          o Escolhido.<br />
+          Neo: Sério?<br />
+          Cypher: Pode apostar. Isso o faz continuar. Talvez faça todos nós
+          continuarmos.<br />
+          Neo: Quantos houveram?<br />
+          Cypher: Cinco. Desde que cheguei aqui.<br />
+          Neo: O que aconteceu com eles?<br />
+          Cypher: Mortos. Todos mortos.<br />
+          Neo: Como?<br />
+          Cypher: Honestamente. Morfeu. Ele fez todos acreditarem nessa
+          besteira. Eu vi cada um deles encarar um Agente e vi cada um deles
+          morrer. Um pequeno conselho: se você ver um Agente, faça o que
+          façamos; corra. Corra pra caralho. (Tradução livre).
+        </blockquote>
+        <p>
+          Definitivamente, um dos traumas de Cypher é ver Morpheus como a causa
+          da morte de tantos e do futuro que espera seus amigos. Ou ao menos
+          eram amigos. De certa forma, esse pequeno trecho pode ter sido, até
+          mesmo, um alerta, a fim de salvar Neo. Lembra-se da conversa dele com
+          a Trinity? Onde ele disse que iriam matá-lo? Pois é, ele já temia e
+          talvez, em seu âmago, seu temor fosse genuíno pela vida de mais um
+          inocente que Morpheus traria para aquele mundo impiedoso.
+          <br /><br />Cypher, é o personagem deslocado e talvez um dos mais
+          profundos. Agora, a sua mentira, sua traição, podem ser também um ato
+          de desespero. Ele estava cansado da batalha, descrente de Morpheus,
+          destruído pela rejeição de Trinity e sem se encaixar na sua atual
+          realidade. O homem volta para a caverna. Bem, literalmente, pois no
+          final das contas, descobrimos que Sentinelas não diferem X9!
+          <br /><br />A ignorância é uma bênção, não é?
+        </p>
+
+        <hr
+          class="wp-block-separator has-text-color has-background has-very-dark-gray-background-color has-very-dark-gray-color is-style-wide"
+        />
+
+        <!-- /wp:separator -->
+
+        <!-- wp:paragraph -->
+        <p>
+          Por fim, segue alguns links interessantes 🔗
+        </p>
+
+        <p>
+          A Life Less Empty de Ted McKeever —
+          <a href="https://imgur.com/gallery/Dv8jyMc"
+            >imgur.com/gallery/Dv8jyMc</a
+          ><br />
+          Obra com o quote de Thomas Gray —
+          <a href="https://bit.ly/3d4OEaH">bit.ly/3d4OEaH</a><br />
+          Roteiro de Matrix no DailyScript —
+          <a href="https://www.dailyscript.com/scripts/the_matrix.pdf"
+            >dailyscript.com/scripts/the_matrix.pdf</a
+          ><br />
+          A Caverna do tio Platão na UEFS —
+          <a href="http://www2.uefs.br/filosofia-bv/pdfs/platao_16.pdf"
+            >uefs.br/filosofia-bv/pdfs/platao_16.pdf</a
+          ><br />
+        </p>
+
+        <p>
+          Este é um projeto indie apoiado por uma galera maneira, você gostou?
+          <a
+            href="https://medium.com/r/?url=https%3A%2F%2Fapoia.se%2Fheyalbqrq%2F"
+            >Considere se tornar apoiadore mensal 💖</a
+          >
+        </p>
+
+        <p>
+          <center>
+            Nº6 • ANO 1 • MAR/21<br />
+            assine a newsletter para não perder nada
+            <a href="https://www.getrevue.co/profile/heyalbqrq">#detfq</a><br />
+            visite a lojinha, vc pode comprar
+            <a href="http://heyalbqrq.glitch.me">meus livros e artes</a>
+            <br /><br />🧼👐💦
+          </center>
+        </p>
+        <p>
+          <b>Apoiadores:</b> @causpin @wandkam @nanda.munhozbarth
+          @christophergrochewski @bead4tuning @larissafonsil @agathakosiski
+          @vanebley @majurasmask @taahguassu
+        </p>
+      </section>
+
+      <section class="footer">
+        <a
+          href=""
+          id="twitter-share-btt"
+          rel="nofollow"
+          target="_blank"
+          class="twitter-share-button"
+        ></a>
+        <br />
+        <br />
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sharect@1.1.0/src/sharect.js"></script>
+    <script>
+      var sharect = new Sharect();
+
+      sharect.init();
+    </script>
+    <style>
+      .sharect {
+        z-index: 9999;
+      }
+    </style>
+  </body>
+</html>
