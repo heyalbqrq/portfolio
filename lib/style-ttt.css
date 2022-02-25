@@ -10,9 +10,9 @@ body {
   margin: 0;
   padding: 1rem;
   -webkit-font-smoothing: antialiased;
-  background: white;
+  background: black;
   font-family: "merriweather";
-  color: #000000;
+  color: white;
 }
 
 p {
@@ -36,14 +36,17 @@ iframe {
 
 /* Links */
 a {
-  color: black;
+  color: white;
   font-family: "rubik";
   font-weight: bold;
   line-height: 1.5;
   font-size: 20px;
   cursor: pointer;
-  text-decoration: underline;
-  }
+  text-decoration: none;
+  display: block;
+  width: auto;
+  height: auto;
+}
 
 h1 {
   font-family: "rubik";
@@ -114,7 +117,7 @@ ul {
 
 .footnote {
   padding: 50px 0;
-  color: #000000;
+  color: #white;
   text-align: left;
   font-size: 13px;
   line-height: 20px;
@@ -131,7 +134,7 @@ ul {
 .sidebar a {
   font-family: "rubik";
   border-bottom: none;
-  color: #000000;
+  color: #white;
 }
 
 .sidebar .meta {
@@ -213,7 +216,7 @@ byline {
 }
 
 hr {
-  background-color: #000000 /*  */;
+  background-color: white /*  */;
   border: 0px;
   margin: 50px auto;
   width: 50%;
@@ -288,7 +291,7 @@ blockquote p {
 }
 
 .content .listing a {
-  color: black;
+  color: white;
   padding-bottom: 2px;
   border-bottom: 1px dotted #ddd;
   text-decoration: none;
@@ -323,7 +326,7 @@ pre {
 pre code {
   background: transparent !important;
   outline: none;
-  color: black;
+  color: white;
   font-weight: normal;
 }
 /* just the code blocks */
@@ -445,16 +448,16 @@ button {
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
-  color: black;
-  background: white;
-  border: 1px solid black;
-  box-shadow: 2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black,
-    2px -2px 0 black;
+  color: white;
+  background: black;
+  border: 1px solid white;
+  box-shadow: 2px 2px 0 white, -2px -2px 0 white, -2px 2px 0 white,
+    2px -2px 0 white;
   transition: 500ms ease-in-out;
 }
 
 button:hover {
-  box-shadow: 6px 2px 0 black, -6px -2px 0 black;
+  box-shadow: 6px 2px 0 white, -6px -2px 0 white;
 }
 
 button:focus {

@@ -1,26 +1,29 @@
 /* Hey u!
-
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░░░░░░░░
-░░░░░░░░▄▀░░░░░░░░░░░░▄░░░░░░░▀▄░░░░░░░
-░░░░░░░░█░░▄░░░░▄░░░░░░░░░░░░░░█░░░░░░░
-░░░░░░░░█░░░░░░░░░░░░▄█▄▄░░▄░░░█░▄▄▄░░░
-░▄▄▄▄▄░░█░░░░░░▀░░░░▀█░░▀▄░░░░░█▀▀░██░░
-░██▄▀██▄█░░░▄░░░░░░░██░░░░▀▀▀▀▀░░░░██░░
-░░▀██▄▀██░░░░░░░░▀░██▀░░░░░░░░░░░░░▀██░
-░░░░▀████░▀░░░░▄░░░██░░████▀▀▀███▀░░██░
-░░░░░░░▀█░░░░▄░░░░░██░░░░▄░░░▄░░▄░░░██░
-░░░░░░░▄█▄░░░░░░░░░░░▀▄░░▀▀▀▀▀▀▀▀░░▄▀░░
-░░░░░░█▀▀█████████▀▀▀▀████████████▀░░░░
-░░░░░░████▀░░███▀░░░░░░▀███░░▀██▀░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
+───█▒▒░░░░░░░░░▒▒█───
+────█░░█░░░░░█░░█────
+─▄▄──█░░░▀█▀░░░█──▄▄─
+█░░█─▀▄░░░░░░░▄▀─█░░█ 
   */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .container {
     padding-top: 15px;
   }
 
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    text-justify: auto;
+  }
+
+  .content {
+    margin: 10px;
+    padding: 0px 0px;
+    width: auto;
+  }
+  
   .sidebar {
     position: inherit;
     width: inherit;
@@ -50,18 +53,36 @@
   }
 
   .sidebar .sections {
-    margin: 10px 0 0 10px;
+    margin: 0px 0 0 5px;
   }
 
   .sidebar .sections a {
     font-size: 20px;
-    margin: 0 20px 0 0;
-    padding: 5px 10px;
+    margin: 0 0px 0 0;
+    padding: 0px 0px;
   }
 
-  .content {
-    margin: 0;
-    padding: 5px 25px;
-    width: inherit;
+  .footer {
+    position: relative;
+    left: 0px;
+    margin-top: 20px;
+    bottom: 30px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .twitter-share-button {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 0x;
+    background-size: 100%;
+    background-image: url("https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2Ftt256x256.png?v=1625666100419");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }

@@ -1,0 +1,351 @@
+/* Hey u!
+───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
+───█▒▒░░░░░░░░░▒▒█───
+────█░░█░░░░░█░░█────
+─▄▄──█░░░▀█▀░░░█──▄▄─
+█░░█─▀▄░░░░░░░▄▀─█░░█ */
+
+/* Fonts End*/
+
+html,
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 3%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background: white;
+  font-family: "merriweather";
+  color: #000000;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+::selection {
+  background: #cecece;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+/* Links */
+a {
+  color: black;
+  font-family: "rubik";
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "rubik";
+  font-size: 26px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+byline {
+  font-family: "merriweather";
+  font-weight: 400;
+  font-size: 12px;
+  color: #777;
+  text-transform: uppercase;
+}
+
+/* old menu
+nav a {
+  font-family: "rubik";
+  text-decoration: none;
+  color: black;
+  line-height: 3;
+}
+nav {
+  width: auto;
+  padding: 0px 0px 40px 0px;
+  color: black;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+  max-width: 100%;
+  margin: 18px auto;
+  list-style-type: none;
+}
+
+nav a {
+  position: relative;
+  font-weight: bold;
+  border-bottom: none;
+  font-size: 22px;
+  margin: 0px 30px 0px 0px;
+}
+
+nav a:hover {
+  text-decoration: underline overline;
+}*/
+
+/** new menu **/
+nav a {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-family: "rubik";
+  cursor: pointer;
+  text-decoration: none;
+}
+
+summary {
+  writing-mode: vertical-lr;
+  text-align: center;
+  padding: 12px 12px;
+  width: 23px;
+  height: auto;
+  font-family: "rubik";
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid none;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  transition: transform 200ms ease-in-out 0s;
+}
+summary::before,
+summary::after {
+  position: static;
+  top: 0;
+  left: 0;
+}
+summary::before {
+  content: "";
+}
+summary::after {
+  content: "III";
+  letter-spacing: -1px;
+}
+summary:hover {
+  transform: scale(1.1);
+}
+summary::marker {
+  font-size: 0;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .menu {
+  animation-name: menuAnim;
+}
+details[open] summary::before {
+  content: "X";
+}
+details[open] summary::after {
+  content: "";
+}
+.menu {
+  height: auto;
+  width: fit-content;
+  position: absolute;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  animation: closeMenu 300ms ease-in-out forwards;
+}
+.menu a {
+  padding: 12px 24px;
+  margin: 0 12px;
+  color: black;
+  border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  text-align: center;
+  transition: filter 200ms linear 0s;
+}
+.menu a:nth-of-type(1) {
+  padding-top: 24px;
+}
+.menu a:nth-last-of-type(1) {
+  border-bottom: none;
+}
+.menu a:hover {
+  filter: brightness(160%);
+}
+details::before {
+  content: "← Menu";
+  color: var(--secoColor);
+  font-family: "Lato";
+  font-size: 18px;
+  position: absolute;
+  margin-left: 50px;
+  padding: 5px 0px 10px 0px;
+  opacity: 0.2;
+}
+details[open]::before {
+  animation: fadeMe 300ms linear forwards;
+}
+@keyframes menuAnim {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: fit-content;
+  }
+}
+@keyframes fadeMe {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* social */
+.social {
+  font-weight: normal;
+  text-align: left;
+  font-family: "rubik";
+  font-size: 14px;
+}
+
+hr {
+  background-color: #000000 /*  */;
+  border: 0px;
+  margin: 50px auto;
+  width: 50%;
+  height: 2px;
+  border-radius: 2px;
+  max-width: 430px;
+  color: #e1bc1b;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  left: 0px;
+  margin-top: 5px;
+  bottom: 30px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/** Button **/
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  width: 50%;
+  height: auto;
+  padding: 6px;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black,
+    2px -2px 0 black;
+  transition: 500ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 6px 2px 0 black, -6px -2px 0 black;
+}
+
+button:focus {
+  outline: none;
+}

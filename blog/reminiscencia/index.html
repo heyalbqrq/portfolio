@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>
-      conto Reminiscência
+      reminiscência - um conto inspirado pela cultura tupi
     </title>
     <meta name="author" content="Wash Albuquerque" />
     <meta
@@ -14,17 +14,17 @@
       name="viewport"
       content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
     />
-
-    <!-- arquivos javascript -->
-    <script src="/lib/script.js" defer></script>
-
-    <!-- Folha de Estilos-->
+    <link rel="alternate" type="application/rss+xml" href="/blog.xml" />
     <link
       rel="stylesheet"
       href="/lib/style-post.css"
       type="text/css"
       media="screen, projection"
     />
+
+    <!-- Folha de Estilos Tipográficos -->
+    <link rel="stylesheet" href="https://use.typekit.net/uuq2jxq.css" />
+
     <!-- Folha de Estilos Mobile -->
     <link
       rel="stylesheet"
@@ -32,22 +32,45 @@
       type="text/css"
       media="screen, projection"
     />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2F48x48.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2F48x48.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- See https://goo.gl/qRE0vM -->
+    <meta name="theme-color" content="#0abab5" />
+
+    <!-- Arquivos Javascript -->
+    <script src="/lib/script.js" defer></script>
 
     <!-- Ícone-->
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/alien-monster_1f47e.png"
+      href="https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2Flogo-albqrq.png"
     />
-    <link rel="icon" type="image/png" href="👾" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2Flogo-albqrq.png"
+    />
 
     <!-- Veja https://goo.gl/qRE0vM -->
-    <meta name="theme-color" content="#ffd51c" />
+    <meta name="theme-color" content="#0abab5" />
 
     <!-- Homescreen Chrome on Android. -->
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="coisas que o wash faz... " />
-
+    <meta name="application-name" content="coisas que o Wash faz... " />
     <!-- Homescreen Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta
@@ -56,16 +79,36 @@
     />
     <meta
       name="apple-mobile-web-app-title"
-      content="coisas que o wash faz... "
+      content="coisas que o Wash faz... "
     />
-
     <!-- Homescreen Icons -->
-    <link rel="apple-touch-icon" sizes="192x192" href="👾" />
-
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2Flogo-albqrq.png"
+    />
     <!-- Title Icon Windows 8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="👾" />
-    <meta name="msapplication-TileColor" content="#a58706" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2Flogo-albqrq.png"
+    />
+    <meta name="msapplication-TileColor" content="#0abab5" />
     <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Default twitter cards -->
+    <meta name="twitter:card" content="Wash Albuquerque" />
+    <meta name="twitter:site" content="@heyalbqrq" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="my-app" />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/f8ea69bc-a132-4707-860e-abfcae047405%2Ffavicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -74,13 +117,14 @@
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
+
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-161708062-1");
     </script>
+    <!-- End Global site tag (gtag.js) - Google Analytics -->
 
     <!-- SSL Protocol Config -->
     <script>
@@ -90,34 +134,35 @@
           window.location.href.substring(window.location.protocol.length);
       }
     </script>
+    <meta name="p:domain_verify" content="fd7d215910ea0cf1c785c7c7cf7a7c0f" />
+    <!-- End SSL Protocol Config -->
   </head>
-
   <!-- Hey u!
+───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
+───█▒▒░░░░░░░░░▒▒█───
+────█░░█░░░░░█░░█────
+─▄▄──█░░░▀█▀░░░█──▄▄─
+█░░█─▀▄░░░░░░░▄▀─█░░█ 
+-->
 
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░░░░░░░░
-░░░░░░░░▄▀░░░░░░░░░░░░▄░░░░░░░▀▄░░░░░░░
-░░░░░░░░█░░▄░░░░▄░░░░░░░░░░░░░░█░░░░░░░
-░░░░░░░░█░░░░░░░░░░░░▄█▄▄░░▄░░░█░▄▄▄░░░
-░▄▄▄▄▄░░█░░░░░░▀░░░░▀█░░▀▄░░░░░█▀▀░██░░
-░██▄▀██▄█░░░▄░░░░░░░██░░░░▀▀▀▀▀░░░░██░░
-░░▀██▄▀██░░░░░░░░▀░██▀░░░░░░░░░░░░░▀██░
-░░░░▀████░▀░░░░▄░░░██░░████▀▀▀███▀░░██░
-░░░░░░░▀█░░░░▄░░░░░██░░░░▄░░░▄░░▄░░░██░
-░░░░░░░▄█▄░░░░░░░░░░░▀▄░░▀▀▀▀▀▀▀▀░░▄▀░░
-░░░░░░█▀▀█████████▀▀▀▀████████████▀░░░░
-░░░░░░████▀░░███▀░░░░░░▀███░░▀██▀░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  -->
-
-  <!-- sidebar fixo -->
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M8FHJ8T"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="container">
       <header class="sidebar">
         <div class="sidebar-text">
           <nav class="sections">
             <ul>
-              <a href="/blog.html">← blog</a>
+              <a href="/blog">← blog</a>
             </ul>
           </nav>
         </div>
@@ -146,22 +191,16 @@
           porém, também busca trabalhar a fantasia como gatilho das percepções
           históricas. Um conto breve e, espero que, prazeroso.
         </p>
-         <p>
+        <p>
           Um agradecimento especial para toda a galera que deu
           <a href="https://twitter.com/heyalbqrq/status/1386824773355909129"
             >like no tweet</a
           >
-          que tornou essa publicação realidade e também os meus Apoiadores:
-          @causpin @wandkam @nanda.munhozbarth @christophergrochewski
-          @bead4tuning @larissafonsil @agathakosiski @vanebley @majurasmask
-          @taahguassu
+          e tornou essa publicação realidade e também as Apoiadoras.
           <strong>&lt;3 </strong>
-           
-           <p>
-             Você também pode baixar esse conto em <a href="https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2FReminisc%C3%AAncia%20-%20Washington%20Albuquerque.pdf?v=1619654115080">PDF</a>.
-        </p>   </p>
-        <p>  Sugestão para acompanhar a leitura:
         </p>
+
+        <p>Sugestão para acompanhar a leitura:</p>
         <iframe
           width="100%"
           height="300"
@@ -172,8 +211,7 @@
         ></iframe>
         <hr />
 
-       
-<br>
+        <br />
         <h3><center>Reminiscência</center></h3>
 
         <p>
@@ -427,16 +465,21 @@
         </p>
 
         <hr />
-                 <br />
-        <p> Se você gostou, 
-          <a href="https://www.getrevue.co/profile/heyalbqrq"
-            >assine minha newsletter</a
-          >
-          para não perder nada e considere se tornar assinante mensal no
-          <a href="https://apoia.se/heyalbqrq">Apoia.se</a>, sua contribuição
-          me ajuda a continuar produzindo cada vez mais!
+       <p>
+          Se você gostou, assine minha newsletter para não perder nada!
         </p>
 
+         <center>
+          <iframe
+            src="https://heyalbqrq.substack.com/embed"
+            width="480"
+            height="100"
+            style="border:0px solid #EEE; background:white;"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </center>
+        
         <p>Câmbio e desligo.</p>
       </section>
 

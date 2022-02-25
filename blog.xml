@@ -1,55 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-   <channel>
-      <title>deixa eu te falar que </title>
-      <link>
+	<channel>
+		<title>Wash Albuquerque </title>
+		<link>
       https://heyalbqrq.glitch.me/blog/</link>
-      <description>Um podcast sobre ideias mirabolantes ilustradas pelo cinema, literatura e jogos.</description>
-     
-     <item>
-         <title>deixa eu te falar que #6 💬 - a ignorância e a pílula azul 💊 – de volta a caverna e a traição de cypher em matrix.
+		<description>ideias mirabolantes, histórias fantásticas e muito cinema, literatura e jogos.</description>
+       <item>
+			<title>nanquim - conto
          </title>
-         <link>
-         https://heyalbqrq.glitch.me/blog/detfq6-ignorancia-pilula-azul.html</link>
-         <description>Dizem que a ignorância é uma benção, assim como Cypher é o Judas em Matrix, mas há muito mais nas entrelinhas, tanto dessa expressão, quanto no longa das Wachowski. É comum para o ser humano se acovardar diante de situações extremas, mas o que aconteceria se você tivesse a oportunidade de descobrir a verdade, mas escolhesse a pílula azul?</description>
-      </item>
-     
-     <item>
-         <title>deixa eu te falar que #5 💬 - o silêncio em cores 🎨 – o diálogo do
-            silêncio e as emoções em cores de mad max.
+			<link>
+         https://heyalbqrq.glitch.me/blog/nanquim/</link>
+			<description>Jon é uma artista reclusa, a típica nerd que prefere viver em seus próprios devaneios e não encarar o mundo e suas verdades. Durante uma noite na biblioteca da cidade, enquanto estudava anatomia de animais e desenhava criaturas fantásticas em seu caderno, ela foi surpreendida por uma garota que se aproximou de surpresa, após uma breve conversa, a garota parte, mas deixa um bilhete escondido entre as folhas de desenhos com uma mensagem misteriosa: Rua Olavo, 23, 23, 23. Após desvendar o quebra-cabeças, Jon mergulha em um mundo de esquisitices, tendo seus sentimentos e emoções postos a prova diante de um horror inesperado e sobrenatural.</description>
+		    </item>  
+    <item>
+			<title>massala - conto
          </title>
-         <link>
-         https://heyalbqrq.glitch.me/blog/detfq5-silencio-cores-estrada-da-furia.html</link>
-         <description>O silêncio dialoga conosco de muitas maneiras, olhares, gestos, expressões, mas no cinema, ele possui uma beleza interessante e que serve também como ferramenta de diálogo. Neste episódio vamos falar um pouco sobre como percebemos o silêncio na vida e nas artes, seja de forma poética como Patrick Rothfuss faz em A Crônica do Matador do Rei, ou com a belíssima obra Mad Max de George Miller.</description>
-      </item>
-      <item>
-         <title>deixa eu te falar que #4 💬 | velhas terras oníricas 💭 – o ciclo de
-            vida da criatividade
+			<link>
+         https://heyalbqrq.glitch.me/blog/massala/</link>
+			<description>A investigação de um crime brutal, porém sem corpos, leva a uma trama intensa e uma corrida contra o tempo para descobrir a verdade sobre eventos brutais que vem assolando uma cidade distópica ameaçada por kaijus.</description>
+		    </item>    
+    
+    <item>
+					<title>sofia - conto
          </title>
-         <link>
-         https://heyalbqrq.glitch.me/blog/detfq4-velhas-terras-oniricas.html</link>
-         <description>Pode ser que o nosso potencial criativo tenha se esgotado na infância? Bom, você acredita em bicho papão? Essa pode ser a resposta.</description>
-      </item>
-      <item>
-         <title>deixa eu te falar que #3 💬 | tempo ao tempo ⌛ – a ansiedade ordinária de benjamin button
+			<link>
+         https://heyalbqrq.glitch.me/blog/sofia</link>
+			<description>Da janela do seu estúdio, Sofia observa a cidade sob seus pés, se questionando sobre as amarguras da vida que levaram o mundo a se encontra na situação anárquica em que está. Ela vaga pela cidade observando e absorvendo, rodeada por um futuro distópico e radiante, mas que a guiará em uma noite de caos, experimentando a excitação, o medo e o desespero.</description>
+		</item>
+		<item>
+			<title>reminiscência - conto
          </title>
-         <link>
-         https://heyalbqrq.glitch.me/blog/detfq3-tempo-ao-tempo.html</link>
-         <description>A ansiedade é mais comum do que imaginamos os dias atuais, muitas vezes causada pela nossa relação com o tempo. Se pergunte quantas vezes já se pegou pensando "E se...", pensando sobre o passado ou futuro, é possível que não haja diferença nesta questão, isso é abordado sutilmente na jornada de Benjamin Button e nos faz observar a vida por outro ângulo.</description>
-      </item>
-      <item>
-         <title>deixa eu te falar que #2 💬 | neon e déjà vu 🕶️ - vaporwave e a nostalgia que nunca vivemos</title>
-         <link>
-         https://heyalbqrq.glitch.me/blog/detfq2-neon-e-deja-vu.html</link>
-         <description>A nostalgia já foi considerado um estado clínico, e hoje, é considerado uma emoção suspensa entre a realidade e ilusão. O Vaporwave é um estilo musical que desperta a nostalgia em todos os seus aspectos, podendo ser uma tradução áudio e visual do que se compreende como a nostalgia.</description>
-      </item>
-      <item>
-         <title>deixa eu te falar que #1 💬 | o monstro replicante 🎃 - cyberpunk de frankenstein a blade
-            runner
-         </title>
-         <link>
-         https://heyalbqrq.glitch.me/blog/detfq1-o-monstro-replicante.html</link>
-         <description>A ideia da existência e morte é uma constante no universo cyberpunk, neste episódio, vamos falar sobre esse intrigante ponto que vem desde o primórdio do estilo, com Frankestein de Mary Shelley, o filme Blade Runner de 1982 e o Detroit: Become Human da Quantic Dream.</description>
-      </item>
-   </channel>
+			<link>
+         https://heyalbqrq.glitch.me/blog/reminiscencia</link>
+			<description>Em meio aos contos e músicas da avó, uma criança será testemunha de uma terrível tragédia em sua aldeia. Porém, as histórias de sua tribo vão além do mito e os eventos irão te surpreender. Uma narrativa sobre amor e dor, inspirado na mitologia Tupi.</description>
+		</item>
+			
+	</channel>
 </rss>

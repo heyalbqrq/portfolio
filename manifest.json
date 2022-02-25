@@ -1,0 +1,23 @@
+{
+  "short_name": "Wash Albuquerque",
+  "name": "Blog do @heyalbqrq",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2F48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2F96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://cdn.glitch.com/1ba6a0ff-7667-4891-a6d4-d0d20182bbf1%2F192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://heyalbqrq.glitch.me"
+}
+
